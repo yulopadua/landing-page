@@ -125,3 +125,25 @@ button {
     margin-bottom: 0;
     color: #6e6e6e;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 350px;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 0;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0;
+    align-self: flex-end;
+}
