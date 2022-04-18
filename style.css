@@ -25,6 +25,10 @@ a {
     color: lightgray;   
 }
 
+p {
+    margin: 0;
+}
+
 header {
     background-color: #1f2937;
     display: flex;
@@ -32,7 +36,7 @@ header {
     padding: 18px 210px;
 }
 
-button {
+.button-one {
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
@@ -41,6 +45,17 @@ button {
     font-weight: bold;
     padding: 10px 33px;
     margin-top: 10px;
+}
+
+.button-two {
+    background-color: #3882f6;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 33px;
 }
 
 .logo-text {
@@ -101,6 +116,7 @@ button {
     justify-content: center;
     gap: 50px;
     padding-bottom: 120px;
+    flex-wrap: wrap;
 }
 
 .cards {
@@ -122,7 +138,6 @@ button {
     text-align: center;    
     font-size: 17px;
     margin-top: 8px;
-    margin-bottom: 0;
     color: #6e6e6e;
 }
 
@@ -138,12 +153,34 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-    margin: 0;
 }
 
 .thor {
     font-weight: bold;
     font-size: x-large;
-    margin: 0;
     align-self: flex-end;
+}
+
+.sign-up {
+    margin: 100px 210px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.content-title {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+.content-sec {
+    font-size: large;
+    color: lightgray;
 }
